@@ -3,7 +3,12 @@ name: Deploy static site to GitHub Pages
 on:
   push:
     branches:
-      - main    # o la rama que uses
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build-deploy:
