@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AgroCare — Cuidado inteligente de tus plantas</title>
+
+    <!-- FUENTES E ICONOS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+</head>
+<body>
+
+<!-- ========= NAV ========= -->
+<header class="nav">
+    <div class="nav__brand">
+        <img src="assets/images/logo-agrocare.png" alt="Logo AgroCare" class="nav__logo">
+        <span>AgroCare</span>
+    </div>
+
+    <nav class="nav__links" id="navLinks">
+        <a href="#inicio" class="active"><i class="ri-home-4-line"></i><span>Inicio</span></a>
+        <a href="#calendario"><i class="ri-calendar-event-line"></i><span>Calendario</span></a>
+        <a href="#mis-plantas"><i class="ri-seedling-line"></i><span>Mis plantas</span></a>
+        <a href="#perfil"><i class="ri-user-3-line"></i><span>Perfil</span></a>
+        <a href="#contacto" class="nav__cta">Contáctanos</a>
+    </nav>
+
+    <button class="nav__hamburger" id="menuBtn" aria-label="Abrir menú">
+        <i class="ri-menu-line"></i>
+    </button>
+</header>
+
+<!-- ========= HERO ========= -->
+<section id="inicio" class="hero section">
+    <div class="hero__content">
+        <h1>Cuidado inteligente y sostenible para tus plantas.</h1>
+        <p>La plataforma que convierte el cuidado de tus plantas en una experiencia fácil,
+            personalizada y sostenible.</p>
+        <div class="hero__stores">
+            <a href="#" class="store"><i class="ri-apple-line"></i> App Store</a>
+            <a href="#" class="store"><i class="ri-google-play-line"></i> Play Store</a>
+        </div>
+        <a href="#nosotros" class="hero__down" aria-label="Ver más"><i class="ri-arrow-down-s-line"></i></a>
+    </div>
+    <div class="hero__image">
+        <img src="assets/images/hero-plants.png" alt="Persona cuidando plantas">
+    </div>
+</section>
+
+<!-- ========= NOSOTROS ========= -->
+<section id="nosotros" class="section about">
+    <h2 class="section__title">Nosotros</h2>
+    <div class="about__grid">
+        <p>
+            AgroCare es una startup tecnológica que usa inteligencia artificial para ayudarte
+            a cuidar tus plantas de forma fácil y personalizada. A través de una plataforma
+            web y móvil, te brindamos recomendaciones prácticas para mantener saludables tus
+            plantas ornamentales, medicinales y productoras, promoviendo la sostenibilidad y
+            el bienestar en tu hogar.
+        </p>
+        <img src="assets/images/about.jpg" alt="Persona con plantas">
+    </div>
+</section>
+
+<!-- ========= BENEFICIOS ========= -->
+<section id="beneficios" class="section benefits">
+    <h2 class="section__title">Beneficios</h2>
+    <div class="benefits__grid">
+        <article class="benefit">
+            <i class="ri-plant-line"></i>
+            <h3>Cuidado personalizado</h3>
+            <p>Recordatorios y guías según especie, clima y ubicación.</p>
+        </article>
+        <article class="benefit">
+            <i class="ri-smartphone-line"></i>
+            <h3>Acceso fácil</h3>
+            <p>Todo en una app sencilla, rápida y siempre a mano.</p>
+        </article>
+        <article class="benefit">
+            <i class="ri-earth-line"></i>
+            <h3>Sostenibilidad</h3>
+            <p>Buenas prácticas para ahorrar agua y evitar desperdicios.</p>
+        </article>
+        <article class="benefit">
+            <i class="ri-book-open-line"></i>
+            <h3>Bienestar y aprendizaje</h3>
+            <p>Biblioteca y foro para aprender y compartir.</p>
+        </article>
+    </div>
+</section>
+
+<!-- ========= RECOMENDACIONES ========= -->
+<section id="recomendaciones" class="section testimonials">
+    <h2 class="section__title">Recomendaciones</h2>
+    <div class="testi__grid">
+        <div class="card">
+            <div class="card__head">
+                <img src="assets/images/user-1.jpg" alt="">
+                <strong>Aurora Tovar</strong>
+            </div>
+            <p>Me gusta usar la app. Con ella me siento segura sobre cómo debo cuidar mis plantas.</p>
+        </div>
+
+        <div class="card">
+            <div class="card__head">
+                <img src="assets/images/user-2.jpg" alt="">
+                <strong>Raquel Esteve</strong>
+            </div>
+            <p>Es bastante útil y fácil de usar. Me ayuda a gestionar mis cultivos para sacarles provecho.</p>
+        </div>
+
+        <div class="card">
+            <div class="card__head">
+                <img src="assets/images/user-3.jpg" alt="">
+                <strong>Alejandro Chaves</strong>
+            </div>
+            <p>Me permite estar al tanto del cuidado de mis plantas para no descuidarlas.</p>
+        </div>
+
+        <div class="card">
+            <div class="card__head">
+                <img src="assets/images/user-4.jpg" alt="">
+                <strong>Joaquín Cuenca</strong>
+            </div>
+            <p>AgroCare me ayuda bastante con mis investigaciones de plantas silvestres.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ========= MIS PLANTAS(features) ========= -->
+<section id="mis-plantas" class="section features">
+    <h2 class="section__title">Mis plantas</h2>
+    <div class="feat__grid">
+        <article class="feat">
+            <img src="assets/images/feat-registro.png" alt="">
+            <h3>Registro</h3>
+            <p>Identifica tu planta y agréga a tu colección.</p>
+        </article>
+        <article class="feat">
+            <img src="assets/images/feat-biblioteca.png" alt="">
+            <h3>Biblioteca</h3>
+            <p>Información curada y fácil de consultar.</p>
+        </article>
+        <article class="feat">
+            <img src="assets/images/feat-coleccion.png" alt="">
+            <h3>Colección</h3>
+            <p>Resumen del estado de tus plantas con fotos.</p>
+        </article>
+        <article class="feat">
+            <img src="assets/images/feat-riego.png" alt="">
+            <h3>Riego</h3>
+            <p>Recordatorios con hora y frecuencia óptimas.</p>
+        </article>
+        <article class="feat">
+            <img src="assets/images/feat-logros.png" alt="">
+            <h3>Desafíos y logros</h3>
+            <p>Mantente motivado con medallas y niveles.</p>
+        </article>
+        <article class="feat">
+            <img src="assets/images/feat-ia.png" alt="">
+            <h3>Diagnóstico (IA)</h3>
+            <p>Sube una foto y detecta plagas o deficiencias.</p>
+        </article>
+    </div>
+</section>
+
+<!-- ========= CALENDARIO ========= -->
+<section id="calendario" class="section calendar">
+    <h2 class="section__title">Calendario</h2>
+    <div class="calendar__grid">
+        <div class="cal__mini">
+            <div class="cal__row cal__head">
+                <span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span><span>Vie</span><span>Sáb</span><span>Dom</span>
+            </div>
+            <div class="cal__days">
+                <span></span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span>
+                <span>7</span><span>8</span><span class="is-today">9</span><span>10</span><span>11</span><span>12</span><span>13</span>
+                <span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span>
+                <span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span>
+                <span>28</span><span>29</span><span>30</span>
+            </div>
+        </div>
+
+        <div class="cal__cards">
+            <article class="todo">
+                <img src="assets/images/plant-1.png" alt="">
+                <div>
+                    <h4>Suculenta 1</h4>
+                    <p>Riego hoy a las 3:00 PM</p>
+                </div>
+            </article>
+            <article class="todo">
+                <img src="assets/images/plant-2.png" alt="">
+                <div>
+                    <h4>Planta de fresas</h4>
+                    <p>Riego 4:00 PM • Fumigar 5:00 PM</p>
+                </div>
+            </article>
+            <article class="todo">
+                <img src="assets/images/plant-3.png" alt="">
+                <div>
+                    <h4>Cactus feo</h4>
+                    <p>Riego en 1 semana</p>
+                </div>
+            </article>
+            <article class="todo">
+                <img src="assets/images/plant-4.png" alt="">
+                <div>
+                    <h4>Palmera de casa</h4>
+                    <p>Riego mañana 7:00 AM</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ========= CONTACTO / REDES ========= -->
+<section id="contacto" class="section contact">
+    <h2 class="section__title">Conecta con nosotros</h2>
+    <div class="contact__grid">
+        <div class="contact__social">
+            <h3>Redes Sociales</h3>
+            <div class="icons">
+                <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+                <a href="#" aria-label="TikTok"><i class="ri-tiktok-fill"></i></a>
+                <a href="#" aria-label="X"><i class="ri-twitter-x-line"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-line"></i></a>
+            </div>
+        </div>
+
+        <form class="contact__form" id="contactForm">
+            <h3>Contáctanos</h3>
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo" required>
+            <textarea name="message" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+            <p class="form__msg" id="formMsg" role="alert" aria-live="polite"></p>
+        </form>
+
+        <img src="assets/images/contact-left.jpg" class="contact__side left" alt="">
+        <img src="assets/images/contact-right.jpg" class="contact__side right" alt="">
+    </div>
+</section>
+
+<!-- ========= FOOTER ========= -->
+<footer class="footer">
+    <p>© 2025 AgroCare</p>
+</footer>
+
+<!-- BOTON DE WHATSAPP -->
+<a class="fab" href="https://wa.me/51941540182" target="_blank" aria-label="WhatsApp">
+    <i class="ri-whatsapp-line"></i>
+</a>
+
+<script src="assets/scripts/main.js"></script>
+</body>
+</html>
